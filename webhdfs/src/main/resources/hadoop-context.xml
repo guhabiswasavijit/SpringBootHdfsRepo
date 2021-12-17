@@ -6,5 +6,6 @@
                    http://www.springframework.org/schema/hadoop http://www.springframework.org/schema/hadoop/spring-hadoop.xsd">
 
     <hdp:configuration id="hadoopConfiguration" />
-    <hdp:file-system uri="webhdfs://localhost:50070" />
+    <hdp:file-system uri="hdfs://webhdfs:8020" user="root" />
+
 </beans>
